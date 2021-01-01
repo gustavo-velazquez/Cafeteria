@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+}
+#menu {
+  height: 550px;
+  background-image: url("../img/cafe-love.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  background-color: #c0bebabe;
+  width: 100%;
+  position: fixed;
+}
+
+.icono img {
+  width: 3%;
+  border-radius: 50%;
+  float: left;
+  margin-left: 30px;
+}
+nav ul {
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li {
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #421d04;
+}
+
+.titulo {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 110px;
+}
+.titulo h1 {
+  margin-left: 30%;
+  font-size: 100px;
+  -webkit-text-fill-color: rgb(247, 248, 244);
+  -webkit-text-stroke: 2px black;
+  font-family: "Permanent Marker", cursive;
+}
+
+/*main*/
+
+/*sobre nosotros*/
+
+.sn {
+  width: 100%;
+}
+.sn h1 {
+  text-align: center;
+}
+
+.sn p {
+  text-align: center;
+}
+
+.sn_img {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+  margin-right: 0px;
+}
+.sn_img img {
+  width: 50%;
+  margin-left: 200px;
+  margin-top: -150px;
+  border-radius: 50%;
+}
+.sn_txt {
+  display: inline-block;
+  width: 50%;
+  margin-right: 0px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+.sn_txt h1 {
+  padding-top: 20px;
+  font-size: 35px;
+  color: #421d04;
+}
+.sn_txt p {
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+/*menu*/
+.pr {
+  width: 100%;
+}
+.mimg {
+  text-align: center;
+}
+.mimg img {
+  width: 20%;
+}
+.m1 {
+  margin-top: 10px;
+}
+.mleft {
+  display: inline-block;
+  width: 48%;
+  margin-left: 20px;
+}
+.mrigth {
+  display: inline-block;
+  width: 48%;
+}
+.m1 .detalle {
+  display: inline-block;
+  width: 70%;
+  background-color: rgb(189, 192, 192);
+}
+.detalle h1 {
+  margin-left: 40%;
+  font-family: "Permanent Marker", cursive;
+  font-size: 18px;
+}
+.m1 .precio {
+  display: inline-block;
+  width: 20%;
+  background-color: rgb(136, 136, 132);
+}
+.precio p {
+  margin-left: 30%;
+}
+.precio {
+  font-family: "Permanent Marker", cursive;
+  font-size: 18px;
+}
+
+.reserva {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.reserva a {
+  text-decoration: none;
+  color: white;
+}
+
+.reserva button {
+  width: 100px;
+  height: 40px;
+  background-color: #421d04;
+  color: white;
+  border-radius: 5px;
+}
+
+.reserva button:hover {
+  background-color: #804000;
+}
+
+/*form_reserva*/
+.cont {
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  display: inline-block;
+  border-radius: 10px;
+  border: solid black;
+  width: 40%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #80400096;
+}
+.form .titulo {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form h2 {
+  color: #421d04;
+  font-size: 25px;
+}
+.form ul li {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.form ul {
+  list-style: none;
+}
+
+.form label {
+  margin-right: 5px;
+  display: inline-block;
+  width: 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.form input {
+  padding: 8px;
+  width: 250px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  width: 40%;
+  height: 50px;
+  display: inline-block;
+  margin-left: 15px;
+  background: #421d04;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  font-family: "Cookie", cursive;
+}
+
+#mostrar {
+  display: inline-block;
+  width: 100%;
+}
+#mostrar h1 {
+  margin: 20px;
+  color: #421d04;
+}
+.tablita {
+  background-color: rgb(161, 160, 156);
+  width: 90%;
+  padding: 20px;
+}
+#mostrar h1 {
+  margin-top: -250px;
+}
+.tablita th,
+td {
+  width: 20%;
+  text-align: right;
+  padding: 5px;
+}
+
+.btn_eliminar {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+  border: solid black 1px;
+}
+
+/*admin*/
+
+.btn_admin {
+  background-color: #b68438; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn_admin:hover {
+  background-color: #804000;
+}
+
+.con_admin {
+  height: 350px;
+  display: inline-block;
+  width: 100%;
+}
+
+.con_admin div {
+  margin-top: 100px;
+  text-align: center;
+}
+#mostrar_todo {
+  margin-bottom: 50px;
+  overflow: scroll;
+  height: 300px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.con_admin div h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.btn_a {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+.btn_agregar {
+  width: 10%;
+  height: 40px;
+
+  display: inline-block;
+  background: #804000;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  font-family: "Cookie", cursive;
+}
+
+#btn_agregar_pro {
+  position: absolute;
+  top: 60%;
+  margin-left: -70px;
+}
+
+/*footer*/
+
+footer {
+  width: 100%;
+  background: #804000;
+  color: white;
+  margin-top: 20px;
+}
+
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1 {
+  max-width: 400px;
+}
+
+.colum1 h1 {
+  font-size: 22px;
+}
+
+.colum1 p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+
+.colum2 {
+  max-width: 400px;
+}
+
+.colum2 h1 {
+  font-size: 22px;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img {
+  width: 36px;
+  height: 36px;
+}
+
+.row label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #c7c7c7;
+}
+
+.colum3 {
+  max-width: 400px;
+}
+
+.colum3 h1 {
+  font-size: 22px;
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 img {
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer {
+  width: 100%;
+  background: #421d04;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.copyright {
+  color: #c7c7c7;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a {
+  text-decoration: none;
+  color: #c7c7c7;
+}
