@@ -6,6 +6,6 @@
 Administrador: </br></br>
 Usuario: admin </br> Contraseña:1234
 
-Usuario: </br></br>
+Cliente: </br></br>
 Usuario: gus </br> Contraseña:12345
 
